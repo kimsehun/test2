@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper      
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"      
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.co.moebius.user.UserMapper">
+	<!-- 회원가입 -->
+	<insert id="registUser" parameterType="UserVO" >
+	INSERT INTO m_user(
+				user_id,user_name,user_pwd,user_age,user_pwd_hint,user_pwd_answer,
+				user_gender,user_jumin1,user_jumin2,user_email,user_phone,user_zipcode,
+				user_addr1,user_addr2)
+	VALUES(		
+				#{user_id},#{user_name},#{user_pwd},#{user_age},#{user_pwd_hint},#{user_pwd_answer},
+				#{user_gender},#{user_jumin1},#{user_jumin2},#{user_email},#{user_phone},#{user_zipcode},
+				#{user_addr1},#{user_addr2})
+	</insert>
+	
+</mapper>

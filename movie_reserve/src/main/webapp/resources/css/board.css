@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+table {border-collapse:collapse;}
+table caption {font-family:나눔고딕코딩; font-size:1.5em; padding-bottom:5px;}
+table th, table td {font-family: monospace; padding:10px; border:solid 1px gray; padding-bottom:10px;}
+table th {background:rgb(211, 171, 255);  text-align:center;}
+table td {background:#F9F5FF;}
+
+.msg_warn {color:rgba(255,0,0,1.0); font-size:0.8em;}
+.msg_ok {color:rgba(0,0,2550,1.0); font-size:0.8em;}
+.page {font-size: 1.0em;}
+.search {text-align:right;}
+
+.txtZipcode {width:80px;}
+.input_text_long {width:250px;}
+
+
+
+table td.center {text-align:center;}
+table td.width {width: 681px;}
+table td.comment {width:93px; text-align:center;}
+table td.commentcontent {width: 573px; text-align:center;}
+table td.commentinsert {width: 418px;}
+
+div.logInfo {font-size: 0.8em; text-align: right;}
+div.right {width:765px;text-align:right;}
